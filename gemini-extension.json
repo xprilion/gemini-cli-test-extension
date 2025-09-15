@@ -1,0 +1,17 @@
+{
+  "name": "wandb-mcp-server",
+  "version": "0.1.0",
+  "mcpServers": {
+    "wandb": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/wandb/wandb-mcp-server",
+        "wandb_mcp_server"
+      ],
+      "env": {
+        "WANDB_API_KEY": "<insert your wandb key>",
+      }
+    }
+  }
+}
