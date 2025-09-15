@@ -8,10 +8,7 @@
         "--from",
         "git+https://github.com/wandb/wandb-mcp-server",
         "wandb_mcp_server"
-      ],
-      "env": {
-        "WANDB_API_KEY": "<insert your wandb key>",
-      }
+      ]
     }
   }
 }
